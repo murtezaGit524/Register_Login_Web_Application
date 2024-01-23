@@ -1,0 +1,88 @@
+body{
+    position: relative;
+    outline: none;
+    top: 150px;
+    display: flex;
+    right: 0;
+    left: 800;
+    align-items: center;
+    background-image: url(bgpic4.jpg );
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+    backdrop-filter: blur(4px);
+}
+.container{
+    left: 70px;
+    bottom: 80px;
+    position: relative;
+    height: 560px;
+    width: 90%;
+    background: transparent;
+    border-radius: 24px;
+    border: 3px solid rgba(257, 257, 257,.4);
+    backdrop-filter: blur(3px);
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;   
+    transition: all ease .30s;
+}
+.navbar{
+    top: 0;
+    bottom: 0;
+    position: relative;
+    right: 300px;
+    padding-bottom:400px;
+    display:flex;
+    align-items: center;
+    list-style: none;
+}
+.navbar a{    
+    text-decoration: none;
+    position: relative;
+    color: rgba(2, 65, 65, 0.789);
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 50px;
+}
+.navbar a::after{
+    position: absolute;
+    content: '';
+    right: 0;
+    width: 0;
+    bottom: -5px;
+    height: 2px;
+    background: rgba(67, 4, 241, 0.693);
+    border-radius: 8px;
+    transition: all ease .45s;
+
+}
+.navbar a:hover::after{  
+    width: 100%;
+}
+.h1{
+    position: absolute;
+    margin-top: 0;
+    margin-bottom: 90px;
+    padding-bottom:0;
+    padding-top: 20px;
+    align-items: center;
+    color: rgb(255, 0, 111);
+}
+.h1 h4{
+    position: relative;
+    padding-top: 50px;
+    padding: 10px;
+    right: 300px;
+    color: rgb(141, 141, 158);
+}
+.h1 .p1{
+    position: relative;
+    right: 300px;
+    padding: 5px;
+    text-align: justify;
+    display: inline-block;
+    color:#01070e;
+}

@@ -1,0 +1,7 @@
+INDEX VERSION 1.131+D:\Java (Sathya Tech)\RatanSirClass\Login&RegisterProject\.metadata\.plugins\org.eclipse.jdt.core
+1054875125.index
+3657382077.index
+1865797976.index
+2565660670.index
+821751569.index
+4023151847.index

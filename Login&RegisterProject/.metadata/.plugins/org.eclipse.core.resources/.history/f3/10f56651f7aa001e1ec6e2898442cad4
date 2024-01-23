@@ -1,0 +1,55 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Register.css">
+         <!-- boxicon link-->
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    
+    </head>
+    <body>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Technologies</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="Login.jsp">Login</a></li>
+            <li><a href="Login.jsp">Register</a></li>
+          </ul>
+                <!--Container -->
+                <div class="container"> 
+                    <div class="main-box register">
+                        <h1>Registration</h1>
+                        <form action="">
+                            <div class="input-box">
+                                <span class="icon"><i class='bx bxs-user' ></i></span>
+                                <input type="text" name="username" required>
+                                <label>Username</label>
+                            </div>
+                            <div class="input-box">
+                                <span class="icon"><i class='bx bxs-envelope' ></i></span>
+                                <input type="email" name="email" required>
+                                <label>Email</label>
+                            </div>
+            
+                            <div class="input-box">
+                                <span class="icon"><i class='bx bx-lock-alt' ></i></span>
+                                <input type="password" name="password" required>
+                                <label>Password</label>
+                            </div>
+            
+                            <div class="check">
+                                <label><input type="checkbox">I accept all the term & conditions</label>
+                            </div>
+            
+                            <button type="submit" class="main-btn">Register</button>
+                            
+                            <div class="register">
+                                <p>I already have an account? <a href="#" class="login-link">
+                                    Login </a></p>
+                            </div>
+                        </form>
+                    </div>
+    </body>
+</html>

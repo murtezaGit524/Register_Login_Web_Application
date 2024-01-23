@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>welcome page</title>
+<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<h1 class="h1">Welcome Project</h1>
+<h4 class="h4">Hey, I'm Murteza Ansari</h4>
+<p class="p">I'm a java Full Stack Developer To know about project details visit about page </p>
+<a class="a1" href="#">Home</a>
+<a class="a1" href="#">About</a>
+<a class="a1" href="#">Login</a>
+</body>
+</html>

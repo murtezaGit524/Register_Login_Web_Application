@@ -1,0 +1,5 @@
+package com.sathya.model;
+
+public class User {
+
+}

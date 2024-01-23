@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>welcome page</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+        <body>
+        <div class="container"> 
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Technologies</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="Login.jsp">Login</a></li>
+          </ul>
+          <div class="h1">
+          <h1>Welcome to Satya Technology</h1>
+          <h4>Hey, I'm Murteza Ansari</h4>
+          <p class="p1">I'm a java Full Stack Developer To know about project details visit about page.<br>
+            To know about the technologies what i used in this project please visit Tachnologies page.<br>
+             mollitia nostrum incidunt eveniet atque dolore cupiditate reiciendis molestias ab, consectetur<br>
+             esse velit iste alias quod.</p>
+          </div>
+
+        </div>
+        </body>
+    
+</html>

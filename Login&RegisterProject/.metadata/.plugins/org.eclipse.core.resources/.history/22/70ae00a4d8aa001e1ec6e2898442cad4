@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+body {
+	background-color: lightyellow;
+	font-family:'Arial',sans-serif;
+	background-color: lightyellow;
+	
+}
+.h1{
+	color:grey;
+	font-family: serif;
+	margin-top: 250px;
+	margin-left: 80px;	
+}
+.h4{
+	color:grey;
+	font-family: serif;
+	margin-top: 0;
+	margin-left: 90px;
+}
+.p1{
+	color:red;
+	font-family: serif;
+	margin-top: 0;
+	margin-left: 30px;
+}
+.a1{
+	margin: 80px;
+	height: 30px;
+}

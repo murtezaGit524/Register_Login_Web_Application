@@ -1,0 +1,95 @@
+@charset "ISO-8859-1";
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+    text-decoration: none;
+}
+body{
+    position: absolute;
+    outline: none;
+    display: flex;
+    
+    align-items: center;
+    background-image: url(bgpic4.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-attachment: scroll;
+    background-size: cover;
+    backdrop-filter: blur(8px);
+}
+.container{
+    position: relative;
+    height: 615px;
+    margin: 50px;
+    width: 1380px;
+    background: transparent;
+    border-radius: 24px;
+    border: 3px solid rgba(257, 257, 257,.4);
+    backdrop-filter: blur(3px);
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;   
+    transition: all ease .20s;
+}
+.navbar{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    display:flex;
+    align-items: center;
+    list-style: none;
+}   
+   .navbar a{    
+    position: relative;
+    color: rgba(231, 14, 14, 0.789);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+    left: 600px;
+   
+
+}
+.navbar a::after{
+    position: absolute;
+    content: '';
+    right: 0;
+    width: 0;
+    bottom: -5px;
+    height: 2px;
+    background: rgba(247, 122, 72, 0.826);
+    border-radius: 8px;
+    transition: all ease .45s;
+
+}
+.navbar a:hover::after{  
+    width: 100%;
+}
+.h1{
+    position: absolute;
+    top: 120px;
+    align-items: center;
+    color: rgb(156, 38, 89);
+}
+.h1 h4{
+    position: absolute;
+    top: 120px;
+    left: -300px;
+    align-items: center;
+    color: rgb(141, 141, 158);
+}
+.h1 .p1{
+    position: relative;
+    top: 120px;
+    right: 300px;
+    text-decoration: none;
+    text-align: justify;
+    font-weight: 300;
+    font-size: 16px;
+    color:#01070e;
+}
